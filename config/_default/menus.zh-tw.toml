@@ -1,0 +1,19 @@
+[[main]]
+  name = "Storage"
+  pageRef = "storage"
+  weight = 10
+
+[[main]]
+  name = "Fault Injection"
+  pageRef = "fault-injection"
+  weight = 20
+
+[[main]]
+  name = "PWN Writeup"
+  pageRef = "pwn-writeup"
+  weight = 30
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 40

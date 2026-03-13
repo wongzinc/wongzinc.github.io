@@ -1,0 +1,21 @@
+languageCode = "zh-tw"
+languageName = "繁體中文"
+weight = 9
+title = "Whisperer"
+
+[params]
+  displayName = "繁體中文"
+  isoCode = "zh-tw"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = ""
+  description = "一个强大、轻量级的 Hugo 主题。"
+
+[params.author]
+  name = "Soupy"
+  image = "frieren.jpg"
+  headline = "Storage Whisperer / Bare-metal Enthusiast"
+  bio = "專注於儲存技術、Fault Injection 與 PWN"
+  links = [
+    { github = "https://github.com/wongzinc" },
+  ]

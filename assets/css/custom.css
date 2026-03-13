@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+
+/* ═══ 全站 Monospace 字型 ═══ */
+
+/* 英文走 JetBrains Mono，中文 fallback 到 Noto Sans TC */
+body,
+h1, h2, h3, h4, h5, h6,
+p, li, td, th,
+a, span, label,
+input, textarea, select, button,
+code, pre,
+.typeit, [data-typeit-id],
+.prose, .prose * {
+  font-family: 'JetBrains Mono', 'Noto Sans TC', Consolas,
+    'Courier New', monospace !important;
+}
+
+/* 標題字重 */
+h1, h2 {
+  font-weight: 700 !important;
+}
+h3, h4 {
+  font-weight: 500 !important;
+}
+
+/* 中文正文行高拉高 */
+article p,
+article li,
+.prose {
+  line-height: 1.85 !important;
+}
+
+/* 全站字體大小微調，mono 字型偏寬需要稍小一點 */
+body {
+  font-size: 15px !important;
+}
+
+
+/* ═══ Soupy 紫色文字層次系統 ═══ */
+
+/* L1 — 名字 / Site Title（最亮） */
+.profile h1,
+.profile .text-4xl,
+.author-name {
+  color: #F0E8F7 !important;
+}
+
+/* L2 — H1 文章標題 */
+article h1,
+.single h1 {
+  color: #E8DFF0 !important;
+}
+
+/* L3 — H2 段落標題 */
+article h2 {
+  color: #D4C5E8 !important;
+}
+
+/* L4 — H3 以下 */
+article h3,
+article h4 {
+  color: #C9B8E0 !important;
+}
+
+/* L5 — 正文 */
+article p,
+article li,
+article td,
+.prose {
+  color: #C9B8E0 !important;
+}
+
+/* L5 — TypeIt 動畫（跟正文同亮度，靠粗體區分） */
+.typeit,
+[data-typeit-id] {
+  color: #C9B8E0 !important;
+}
+
+/* L6 — 副標題 / Headline（只限首頁 profile 區域） */
+.profile .text-neutral-500,
+.profile .text-neutral-400,
+section.profile .text-neutral-500,
+section.profile .text-neutral-400 {
+  color: #9B8AAF !important;
+}
+
+/* L7 — Meta 資訊：日期、閱讀時間（跳過標籤） */
+.text-neutral-500 time,
+article .text-xs:not([class*="text-primary"]),
+article .text-sm.text-neutral-500,
+.article-meta {
+  color: #7B6A8F !important;
+}
+
+/* L8 — Footer（最暗） */
+footer,
+footer a {
+  color: #5C4D6E !important;
+}
+footer a:hover {
+  color: #9B8AAF !important;
+}
+
+/* 連結用稍亮的紫，hover 再提亮 */
+article a {
+  color: #D4C5E8 !important;
+}
+article a:hover {
+  color: #F0E8F7 !important;
+}
+
+/* Code block 內文字保持可辨識 */
+code, pre code {
+  color: #D4C5E8 !important;
+}
