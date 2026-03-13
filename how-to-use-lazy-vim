@@ -1,0 +1,25 @@
+## LazyVim 的奇怪使用方式
+
+### copy current file 的所有東西到 clipboard
+```
+ggVG"+y
+```
+1. g = go
+2. gg = go go (衝到最上面)
+3. V = Visual Line(整行選取模式)
+4. G = 大寫的 G 等於衝到最下面
+5. " = 是指定暫存器
+6. + = 系統剪貼簿的暫存器
+7. y = yank(vim 的 copy 叫做 yank(拉))
+
+### 複製整行
+```
+yy
+```
+
+### 開啓 explorer
+```
+space + E
+```
+
+### 如果寫的時候沒有 filename, save 的時候 :w filename 就可以了

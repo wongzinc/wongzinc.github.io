@@ -1,5 +1,6 @@
 ---
 title: "Home"
+background: true
 ---
 <!-- 
 #2D1B3D
