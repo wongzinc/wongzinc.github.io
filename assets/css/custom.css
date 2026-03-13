@@ -29,3 +29,60 @@ article li,
 body {
   font-size: 15px !important;
 }
+
+/* 5. 修復 Blowfish 雙胞胎目錄 Bug */
+@media (min-width: 1024px) {
+    /* 電腦大螢幕：強制隱藏手機版目錄 */
+    details.lg\:hidden { display: none !important; }
+}
+@media (max-width: 1023px) {
+    /* 手機窄螢幕：強制隱藏電腦版目錄 */
+    details.lg\:block { display: none !important; }
+}
+
+/* 6. 修復目錄底部「被砍斷」的壓迫感 */
+#TableOfContents {
+    padding-bottom: 1.5rem !important; /* 增加底部的呼吸空間 */
+    padding-right: 1.5rem !important;
+}
+
+/* 如果你想讓整個目錄框看起來更像一個精緻的終端機視窗，可以加上微微的圓角 */
+details.toc {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    padding-bottom: 0.5rem !important;
+}
+
+/* 7. 終極黑魔法：繞過框架，強制繪製目錄圓點 */
+#TableOfContents ul {
+    list-style: none !important; /* 徹底放棄內建圓點 */
+}
+
+/* 設定清單項目的相對位置，並向右推留出放點點的空間 */
+#TableOfContents li {
+    position: relative !important;
+    padding-left: 1.2rem !important; 
+    margin-bottom: 0.5rem !important;
+}
+
+/* 第一層目錄：用偽元素畫出【實心圓點】 */
+#TableOfContents > ul > li::before {
+    content: "•" !important;         /* 畫上實心圓的符號 */
+    position: absolute !important;
+    left: 0 !important;              /* 把點點釘在最左邊 */
+    top: 0 !important;
+    color: #C9B8E0 !important;       /* 跟你文字一樣的紫色 */
+    font-size: 1.2rem !important;
+    line-height: 1.5 !important;
+}
+
+/* 第二層目錄：用偽元素畫出【空心圓點】 */
+#TableOfContents ul ul li::before {
+    content: "◦" !important;         /* 畫上空心圓的符號 */
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    color: #9B8AAF !important;       /* 這裡我幫你配了稍微暗一點的層次紫 */
+    font-size: 1.2rem !important;
+    line-height: 1.5 !important;
+}
