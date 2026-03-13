@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Persistent Storage on Whisperer</title><link>https://wongzinc.github.io/tags/persistent-storage/</link><description>Recent content in Persistent Storage on Whisperer</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>© 2026 Soupy</copyright><lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wongzinc.github.io/tags/persistent-storage/index.xml" rel="self" type="application/rss+xml"/><item><title>永續儲存系統概述</title><link>https://wongzinc.github.io/storage/persistent-storage-system/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate><guid>https://wongzinc.github.io/storage/persistent-storage-system/</guid><description>&lt;h2 class="relative group"&gt;傑文斯悖論的運作原理(jevons paradox)
+ &lt;div id="傑文斯悖論的運作原理jevons-paradox" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%82%91%e6%96%87%e6%96%af%e6%82%96%e8%ab%96%e7%9a%84%e9%81%8b%e4%bd%9c%e5%8e%9f%e7%90%86jevons-paradox" aria-label="定位點"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;在 SSD 的情景裏，SSD 隨著科技的進步變得便宜和省電時，反而導致更不環保。
+主要原因是便宜導致 SSD 的使用率提升， 縂消耗量上升，而不是減少&lt;/p&gt;</description></item></channel></rss>
