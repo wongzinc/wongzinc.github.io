@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CTF on My Pwn Lab</title><link>https://wongzinc.github.io/tags/ctf/</link><description>Recent content in CTF on My Pwn Lab</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>wongzinc</copyright><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wongzinc.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello from NTHU: 我的 Pwn 研究誌</title><link>https://wongzinc.github.io/posts/hello-world/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate><guid>https://wongzinc.github.io/posts/hello-world/</guid><description>&lt;h1 id="歡迎來到我的實驗室-"&gt;歡迎來到我的實驗室 💻
+&lt;/h1&gt;&lt;p&gt;目前我正在研究：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Linux Heap Exploitation&lt;/strong&gt; (Tcache, House of 系列)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux Kernel Security&lt;/strong&gt; (Rootkit, Syscall Hooking)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Exploitation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目標是 2027 年進入 &lt;strong&gt;DEVCORE&lt;/strong&gt; 實習！&lt;/p&gt;</description></item></channel></rss>
