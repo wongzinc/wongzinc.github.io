@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fault-Injection on Whisperer</title><link>https://wongzinc.github.io/tags/fault-injection/</link><description>Recent content in Fault-Injection on Whisperer</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>© 2026 Soupy</copyright><lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wongzinc.github.io/tags/fault-injection/index.xml" rel="self" type="application/rss+xml"/><item><title>ChipWhisperer 出廠設置報告分析</title><link>https://wongzinc.github.io/fault-injection/fault-injection-introductory/</link><pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate><guid>https://wongzinc.github.io/fault-injection/fault-injection-introductory/</guid><description>&lt;h2 class="relative group"&gt;電壓故障注入(Voltage Glitching)
+ &lt;div id="電壓故障注入voltage-glitching" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e9%9b%bb%e5%a3%93%e6%95%85%e9%9a%9c%e6%b3%a8%e5%85%a5voltage-glitching" aria-label="定位點"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;簡短地説，就是在晶片運算的瞬間，把電壓瞬間拉低再恢復&lt;/p&gt;</description></item></channel></rss>

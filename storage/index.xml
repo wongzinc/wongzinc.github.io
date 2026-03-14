@@ -7,7 +7,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;p&gt;MoL(Memory-on-Logic) 本質上是一種&lt;strong&gt;垂直堆叠&lt;/strong&gt;的3D物理結構。其定義是只要是記憶體直接蓋在運算晶片的正上方都可以稱爲MoL(下層算數,上層存資料)
+&lt;p&gt;MoL(Memory-on-Logic) 本質上是一種垂直堆叠的3D物理結構。其定義是只要是記憶體直接蓋在運算晶片的正上方都可以稱爲MoL(下層算數,上層存資料)
 例: Intel Lakefield&lt;/p&gt;</description></item><item><title>永續儲存系統概述</title><link>https://wongzinc.github.io/storage/persistent-storage-system/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate><guid>https://wongzinc.github.io/storage/persistent-storage-system/</guid><description>&lt;h2 class="relative group"&gt;傑文斯悖論的運作原理(jevons paradox)
  &lt;div id="傑文斯悖論的運作原理jevons-paradox" class="anchor"&gt;&lt;/div&gt;
  
