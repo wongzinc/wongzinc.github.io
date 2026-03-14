@@ -3,7 +3,7 @@
 title: "永續儲存系統概述"
 date: 2026-03-13
 draft: false
-tags: ["Storage", "Persistent Storage", "Filesystem"]
+tags: ["Persistent Storage"]
 ---
 
 ## 傑文斯悖論的運作原理(jevons paradox)
