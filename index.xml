@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Whisperer</title><link>https://wongzinc.github.io/</link><description>Recent content in Home on Whisperer</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>© 2026 Soupy</copyright><lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wongzinc.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>永續儲存系統概述</title><link>https://wongzinc.github.io/storage/persistent-storage-system/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate><guid>https://wongzinc.github.io/storage/persistent-storage-system/</guid><description>&lt;h2 class="relative group"&gt;傑文斯悖論的運作原理(jevons paradox)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Whisperer</title><link>https://wongzinc.github.io/</link><description>Recent content in Home on Whisperer</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>© 2026 Soupy</copyright><lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wongzinc.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>MoL 可靠度</title><link>https://wongzinc.github.io/storage/mol-reliability/</link><pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate><guid>https://wongzinc.github.io/storage/mol-reliability/</guid><description>&lt;h2 class="relative group"&gt;MoL 的定義
+ &lt;div id="mol-的定義" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#mol-%e7%9a%84%e5%ae%9a%e7%be%a9" aria-label="定位點"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;MoL(Memory-on-Logic) 本質上是一種&lt;strong&gt;垂直堆叠&lt;/strong&gt;的3D物理結構。其定義是只要是記憶體直接蓋在運算晶片的正上方都可以稱爲MoL(下層算數,上層存資料)
+例: Intel Lakefield&lt;/p&gt;</description></item><item><title>永續儲存系統概述</title><link>https://wongzinc.github.io/storage/persistent-storage-system/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate><guid>https://wongzinc.github.io/storage/persistent-storage-system/</guid><description>&lt;h2 class="relative group"&gt;傑文斯悖論的運作原理(jevons paradox)
  &lt;div id="傑文斯悖論的運作原理jevons-paradox" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
